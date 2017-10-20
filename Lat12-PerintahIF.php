@@ -1,7 +1,7 @@
 <html>
 
     <head>
-        <title>Struktur Kendali IF-ihdamawaddah</title>
+        <title>Struktur Kendali IF</title>
     </head>
 
     <body>
