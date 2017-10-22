@@ -1,0 +1,25 @@
+INSTALL SPOTIFY
+
+https://github.com/q3aql/spotify-deb-install
+
+INSERT INTO `new` (`id`,`name`,`food`,`confirmed`,`signup_date`) VALUES (NULL, "Sandy", "Key Lime Tarts","N", '2017-10-20');
+INSERT INTO `new` (`id`,`name`,`food`,`confirmed`,`signup_date`) VALUES (NULL, "Tom", "BBQ","Y", '2017-10-21');
+INSERT INTO `new` (`id`,`name`,`food`,`confirmed`,`signup_date`) VALUES (NULL, "Tina", "Salad","Y", '2017-10-22'); 
+
+CREATE TABLE profilanakkos (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, nama VARCHAR(50), JenisKelamin VARCHAR(30), AsalDaerah CHAR(1), signup_date DATE);
+
+INSERT INTO `profilanakkos` (`id`,`nama`,`JenisKelamin`,`AsalDaerah`,`signup_date`) VALUES (NULL, "Ihda Mawaddah Nurmaulidya", "L","Kalimantan Barat", '2017-10-19');
+INSERT INTO `profilanakkos` (`id`,`nama`,`JenisKelamin`,`AsalDaerah`,`signup_date`) VALUES (NULL, "Agus Taryanto", "L","Kalimantan TENGAH", '2017-10-20');
+INSERT INTO `profilanakkos` (`id`,`nama`,`JenisKelamin`,`AsalDaerah`,`signup_date`) VALUES (NULL, "Amira", "P","Temanggung", '2017-10-21');
+INSERT INTO `profilanakkos` (`id`,`nama`,`JenisKelamin`,`AsalDaerah`,`signup_date`) VALUES (NULL, "Rini", "P","Kediri", '2017-10-22');
+INSERT INTO `profilanakkos` (`id`,`nama`,`JenisKelamin`,`AsalDaerah`,`signup_date`) VALUES (NULL, "Agung", "L","Sulawesi", '2017-10-23');
+
+INSERT INTO `profilanakkos` (`id`,`nama`,`JenisKelamin`,`AsalDaerah`,`signup_date`) VALUES (NULL, "Abrori Saputri", "P","Riau", '2017-10-24');
+
+INSERT INTO `profilanakkos` (`id`,`email`) VALUES (NULL, "ihdamawaddah@gmail.com");
+INSERT INTO `profilanakkos` ('email') VALUES ("achong@gmail.com");
+INSERT INTO `profilanakkos` ('email') VALUES ("amira@gmail.com");
+INSERT INTO `profilanakkos` ('email') VALUES ("rini@gmail.com");
+INSERT INTO `profilanakkos` ('email') VALUES ("agung@gmail.com");
+INSERT INTO `profilanakkos` ('email') VALUES ("abrorisaputri@gmail.com");
+
